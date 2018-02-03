@@ -1,0 +1,130 @@
+body{
+    background: url(bgimg.jpg);
+	background-size: cover;
+    }
+.forms{
+  margin:auto;
+  margin-top: 100px;
+  max-width: 613px;
+}
+fieldset {
+  border:3.3px solid black;
+  padding: 20px 5px 20px 20px;
+  font:80%/1 sans-serif;
+  background-color: rgba(208,163,105,.5)
+}
+legend {
+  padding: 0.2em 0.1em;
+  border:0px solid black;
+  color:black;
+  font-size:150%;
+  font-weight: bolder;
+  background-color: rgba(208,163,105,.9);
+}
+#id1{
+  font-family:monospace;
+  font-size: 150%;
+  float:left;
+  width:28%;
+  margin-left:63px;
+  margin-right: 5px;
+  padding-top:6px;
+  text-align:right;
+  font-weight:bold;
+}
+#btn{
+  margin-top: 10px;
+  text-align: center;
+}
+input {
+  background-color: rgba(208,163,105,.5);
+  font-size: 100%;
+  color:rgba(7,7,7,.87);
+  font-weight: bold;
+  border: 1.5px solid #bdbdbd;
+  border-radius: 5px;
+  padding: 5px 5px 5px 30px;
+  background-position: 4px 4px;
+  display:inline;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+}
+input:focus {
+  background-color: #ffffff;
+  border: 1px solid #b1e1e4;
+}
+input#name {
+  background-image: url("name.png");
+}
+input#reg {
+  background-image: url("reg.png");
+ background-position: 04px 02px;
+}
+input#phone {
+  background-image: url("phone.png");
+}
+input#mail {
+  background-image: url("symbol-01.png");
+    background-position: 4px 1px;
+}
+
+textarea {
+  outline:thick;
+  border: thin;
+}
+.lf-btn {
+  align-items: center;
+  padding: 0 10px;
+  height: 33px;
+  width: 80px;
+  border-radius: 10px;
+  font-family: monospace;
+  font-size: 17px;
+  color: black;
+  font-weight: bold;
+  line-height: 1.2;
+  cursor:pointer;
+  background-color: rgba(208,163,105,.7);
+  border-color: black;
+}
+.lf-btn:hover{
+    background-color: black;
+    color:floralwhite;
+}
+.btn-google {
+  font-family:serif;
+  font-size: 16px;
+  text-decoration: none;
+  display:inline-table;
+  justify-content: center;
+  align-items: center;
+  padding: px;
+  width: 70px;
+  border-radius: 5px;
+  color: black;
+  font-weight:600;
+  background-color: rgba(208,163,105,.2);
+  border-color: black;
+  cursor:pointer;
+}
+.btn-google img {
+  width: 26px;
+  margin-right: 7px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+.btn-google:hover {
+  color:white;
+  background-color:black;
+}
+#fill{
+ text-align: center;
+ color:black;
+}
+
+#fill1{
+ font-size: 130%;
+ font-weight: 600;
+ font-family: sans-serif;
+  color: black;
+}
